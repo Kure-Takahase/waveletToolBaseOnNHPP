@@ -1,0 +1,28 @@
+.new_tie_page_div
+{
+	position: absolute;
+    /* top: 0; */
+    width: 80%;
+    height: 55%;
+    background-color: white;
+    top: 25%;
+    left: 10%;
+}
+.new_tie_page_form
+{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.new_tie_page_buttom_div
+{
+	text-align: center;
+}
+.new_tie_page_input_div
+{
+	margin: 15px 35px !important;
+}
+.new_tie_page_h2
+{
+	text-align: center;
+    margin-top: 10px;
+}

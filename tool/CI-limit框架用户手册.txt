@@ -1,0 +1,159 @@
+预期读者
+我们假设你具有基本的HTML、JS、CSS、PHP知识，并且使用过CI框架。
+
+名词解释
+limit插件 	作者自制的辅助插件。
+前端模块组	单一项目中所有可重用的前端代码的集合。
+			具体如何重用下文会详细讲解
+
+框架简介
+CI-limit框架是在CI框架的基础上，引入了前端模块组的概念。配合limit插件以及特定的代码规范形成的一个升级版CI框架。
+其主要目的是实现前端代码的模块化以及高度的可重用。
+前端采用全Ajax技术开发，没有任何页面跳转，以实现类APP式的体验。
+同时，由于将js、css、html以及图片资源全部整合到了前端模块组中，使得本身已实现代码的动静分离，可以很方便的部署CDN加速
+(只需部署limit文件夹即完成了整站所有静态资源的CDN部署)
+
+框架结构说明
+CI框架的根目录处，我们新增了一个limit文件夹。这里将存放 前端模块组 以及 limit插件核心代码（LimitControl.js）。
+CI-limit框架根目录结构如下：
+-- application
+	-- cache
+	-- config
+	-- ...
+	-- views
+		-- errors
+		-- start.php //limit前端模块组启动文件
+		-- ...
+	--index.html
+-- limit //limit核心文件夹
+	-- 模块组1	//可复用模块组
+		-- img 	//图片资源存放处
+		-- module_index //入口模块
+			-- module_index.js //入口模块执行文件
+		-- 模块1//可复用模块
+			-- 模块1.css  //模块1 的css文件
+			-- 模块1.html //模块1 的html文件
+			-- 模块1.js 	  //模块1 的js文件
+		-- 模块2
+		-- ...
+		-- 模块n
+	-- 模块组2
+	-- ...
+	-- 模块组n
+	-- layui 			//layui支持库
+	-- LimitControl.js  //limit插件核心代码
+	-- md5.js
+-- system
+-- tests
+-- user_guide
+-- ...
+
+前端模块组简介
+在一个项目中，limit文件夹内往往存在多个前端模块组。但是实际项目运行时，只会运行其中一个。我们将这个称为主模块组。其他的称为资源模块组。
+每个模块组包含了 一个图片资源库、一个入口模块、以及多个可复用模块。
+图片资源库 —— 即 img 文件夹。为CI-limit框架中使用默认路径时的图片根目录。 ($staticImgURL 所指向的目录)
+入口模块 —— 即 module_index 文件夹。这是一个特殊的可复用模块，里面只包含一个js文件。用于初始化启动模块组。
+可复用模块 —— 即通常意义上理解的前端模块。
+模块组与模块组之间相互解耦、独立，不互相调用（即主模块组不能够调用其他资源模块组）
+当主模块组想要使用资源模块组中的模块时，应将想使用的模块复制粘贴到主模块组中，再进行使用。
+当一个项目开发完成，准备投入到下一个项目中时，原主模块组此时就变为了资源模块组，里面的模块供新项目的主模块组选用。
+下面介绍如何创建模块
+一个模块由三个文件构成——css文件，html文件，js文件。
+css文件决定模块样式。
+html文件决定模块的结构。
+js文件决定模块的行为。
+对于CSS文件，需要考虑到样式命名时是否会与其他模块冲突(共享同一个命名空间)。建议采用模块名为前缀进行样式命名
+对于html文件，有如下约定：
+	1.最外层必须有且只有一个div。div的id名必须为 $aliasName$
+	  例如： <div id="$aliasName$"></div>
+	2.$staticImgURL 表示本地图片库。指向主模块组中的img文件夹
+	  例如： <img src="$staticImgURL/nothing.png">
+	3.不要对最外层div设置 z-index属性
+	4.最外层DIV建议初始设置为不显示(display:none)。以免在动画载入时出现闪烁
+对于js文件，有如下约定：
+	1.每个js文件至少有一对构造、析构函数。可以有多个。
+	  构造函数为模块被装载时运行的函数，析构函数为模块被卸载时运行的函数
+	2.每个构造函数的函数名都是这个模块的别名。一个模块可以有多个别名。
+	  模块加载时输入不同的别名，可以使得同一模块有不同的行为。
+	  析构函数为构造函数名前加 destruct_
+	  例如：	构造函数 index_tab()
+	  	    析构函数 destruct_index_tab()
+	3.允许连锁调用。即模块A自动调用模块B，模块B又自动调用模块C。那么装载模块A，即等同还一起装载了模块B模块C
+
+LimitControl对象介绍
+当js文件试图操作或调用其他模块时，需要通过LimitControl对象来完成。
+LimitControl对象提供了模块间互相操作，互相通信的机制。
+LimitControl.loadModule(父模块别名,模块别名,模块名,出场方向,文档流中插入的位置) //模块别名 与 模块名 不同。
+																			模块名 是指模块文件的名字，由模块代码的文件名决定。
+																			模块别名是给加载的模块起的变量名。多次加载同一模块时通过不同的模块别名进行区分。
+																			同时每个模块别名必须有对应的同名构造函数与相应的析构函数。
+																			模块加载时会自动调用与模块别名同名的构造函数
+																			调用该方法后，会在父模块上增加一个模块。
+LimitControl.removeModule(父模块别名,模块退出方向,验证模块别名,模块退出时间) 	//验证模块别名 参数 是设计失误。将来会取消或改进。
+																			调用该方法后，会自动移除父模块上最后一个模块。
+LimitControl.setAnimateTime(模块载入动画的时间)
+LimitControl.setHostName(域名url)		//稍后的 CI-limit框架的配置 中会详细讲解 
+LimitControl.setStaticHost(静态资源url)	//稍后的 CI-limit框架的配置 中会详细讲解 
+LimitControl.setProjectName(项目名)		//稍后的 CI-limit框架的配置 中会详细讲解 
+LimitControl.moduleObject(模块别名) 		//获取模块的js对象，使得其他模块可以调用别的模块的方法
+
+
+CI-limit框架开发流程
+与CI框架相比，CI-limit框架修改了前端部分的开发流程。
+在CI框架中，用户通过url访问control，然后经control处理后，返回合适的view给用户。
+但在CI-limit框架中，首次访问时，用户通过url访问control，然后经control处理后，调用view中的入口文件，入口文件会启动入口模块，然后由入口模块调用对应的模块组，并返回给用户。
+在此之后，用户将不会通过url直接访问control，而是通过模块组内部的ajax请求访问control。control将不再负责页面跳转的逻辑处理，只进行业务数据相关的处理。
+即，在CI框架中，用户面向 model、control、view 进行开发。而在CI-limit框架中，用户面向 model、control、前端模块组 进行开发。
+
+CI-limit框架的配置
+使用CI-limit框架时，在原本的CI框架本身应有的配置的基础上，有额外六个地方需要配置。
+	在 LimitControl.js 中，需要对LimitControl对象的hostName，staticHost 以及 projectName 属性进行配置。
+hostName 	网站url中控制器的前面的部分。
+staticHost 	服务器中limit文件夹
+projectName 服务器中limit文件夹中本次项目使用的前端模块组的名字
+假设存在这样子一个url: "http://www.wujingchi.com/index.php/welcome/index"
+则hostName配置为 "http://www.wujingchi.com/index.php/"
+假设LimitControl.js存放在 "http://www.wujingchi.com/limit/LimitControl.js"
+则staticHost配置为 "http://www.wujingchi.com/limit/"
+假设limit文件夹中，本次使用的前端模块组为 limitDemo
+则projectName配置为 "limitDemo"
+	在 /application/config/config.php 中，base_url 项配置为与staticHost相同值
+当要部署CDN加速时，只需将staticHost与base_url两个配置项改为CDN域名即完成CDN配置。
+	在 /application/config/Welcome.php 中，index() 内
+将title设置为想要的网页标题，将projectName设置为上LimitControl.js中的projectName相同的值
+
+CI-limit框架的类库、模块
+CI-limit框架由于设计之初就定位为一种高度可重用、代码模块化的框架，所以具体体现就是它的类库是不断增长的。
+每次开发新项目时，应将上一个项目的limit文件夹中的所有前端模块组放置到新项目中去，并新建一个当前项目的前端模块组文件夹。
+当新项目需要用到曾经写过的某个前端模块时，则从过去的前端模块组中复制粘贴过来。
+接下来，我将介绍几个常用的model
+
+Common_model
+通用API。包含3个时间API 和 2个翻译API。翻译API采取有道翻译接口
+getYear() 	//获取当前年
+getMonth()	//获取当前月
+getDay()	//获取当前日
+CNtoJP() 	//将中文翻译成日语
+JPtoCN()	//将日语翻译成中文
+
+IP_model
+包含与IP有关的API
+getIP()		//获取客户端的IP
+getIPArea()	//根据客户端的IP地址获取客户端的所在地信息(此函数需要数据库中建立有本地IP库)
+
+Monitor_model
+包含行为监控有关的API
+logVisitAction()	//记录一次访问行为
+logRegisterAction()	//记录一次注册行为
+logLoginAction()	//记录一次登录行为
+logIllegalAction()	//记录一次异常行为
+
+User_model
+包含用户信息有关的API
+getUserHeadByUserName()	//根据userName查找对应的userHead(头像)
+register()				//注册一个新用户
+isEmailEqualPassword()	//查询邮箱与密码是否匹配
+isEmailCover()			//查询邮箱是否重复
+isUserNameCover()		//查询用户名是否重复
+
+关于model中的API有任何使用上的疑问，请自行查阅源码。

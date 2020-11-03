@@ -1,0 +1,62 @@
+<!-- 帖子响应 
+<div class="tie_shade_div">-->
+	<!-- 帖子主题  end-->
+	<div id="erji_main" class="tie_shade_div">
+		<div class="layui-row" id="erji_content">
+		    <div class="layui-col-md12 erji_col">
+				<h6 class="title" id="erji_title">読み込み中...</h6>
+				
+				<div class="user_message_area_div">
+					<div class="layui-row">
+						<div class="layui-col-xs12 user_message_area_content">
+							<!-- 发帖人头像 此时不需要展示-->
+							<div class="goto_line erji_head_div">
+								<img src="" alt="" class="erji_head_img" id="erji_user_head">
+							</div>
+							
+							<div class="erji_message_div">
+								<!-- 发帖人昵称 此时不需要展示-->
+								<span class="erji_user_name_h4 " valign="top" id="erji_user_name"></span>
+								
+								<span class="erji_time" align="bottom" id="erji_user_time"></span>
+							</div>
+							<!-- 更多按钮 此时不需要展示
+								
+								
+							<i class="layui-icon layui-icon-more erji_menu"></i> -->
+						</div>
+					</div>
+				</div>
+				<p class="erji_p" id="erji_content_p">読み込み中...</p>
+				<hr class="display_none" id="erji_hr">
+		    </div>
+		</div>
+		<!-- 评论区 -->
+	    <div class="comment_main">
+	    	<div class="top_title">
+				<p id="comment_titel_p" class="goto_line">コメント</p>
+				<p id="comment_sum_p" class="goto_line"></p>
+			</div>
+			<div class="layui-row" id="comment_div_row">
+				<!-- 第一条评论 -->
+				<img id="comment_loading_img" src="$staticImgURL/other_loading.gif" alt="">
+				<img id="comment_noComment_img" src="$staticImgURL/regular/nothing.png" alt="">
+			    <!-- 第二条评论 -->
+			</div>
+	    </div>
+	    <!-- 发表评论按钮 -->
+	    <div id="send_comment_div"  onclick="showCommentShade();">
+	    	<p id="send_comment_p">コメント発表</p>
+	    </div>
+	     <!-- 发表评论区域 -->
+	    <div id="textarea_div" class="display_none">
+	    	<textarea id="comment_textarea" placeholder="写下你的评论..." style="display: block;"></textarea>
+    		<div class="control">
+    			<button id="comment_submit" onclick="sendErjiComment();">送る</button>
+    			<button id="comment_cancel" onclick="hideCommentShade();">キャンセル</button>
+    		</div>
+	    </div>
+		<div id="textarea_shade_div" class="display_none"  onclick="hideCommentShade();">
+		</div>
+	</div>
+<!-- </div> -->

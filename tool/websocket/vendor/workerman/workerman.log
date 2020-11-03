@@ -1,0 +1,255 @@
+2019-02-27 13:03:00 pid:1954 Workerman[/var/www/html/dreamSchool/start.php] start in DAEMON mode
+2019-02-27 13:16:39 pid:2122 Workerman[/var/www/html/dreamSchool/start.php] stop 
+2019-02-27 13:16:39 pid:2122 Workerman[/var/www/html/dreamSchool/start.php] is stopping ...
+2019-02-27 13:16:39 pid:1956 Workerman[start.php] stopping ...
+2019-02-27 13:16:39 pid:1956 Workerman[start.php] has been stopped
+2019-02-27 13:16:39 pid:2122 Workerman[/var/www/html/dreamSchool/start.php] stop success
+2019-02-27 13:17:21 pid:2129 Workerman[/var/www/html/dreamSchool/start.php] start in DAEMON mode
+2019-02-27 13:23:06 pid:2173 Workerman[/var/www/html/dreamSchool/start.php] stop 
+2019-02-27 13:23:06 pid:2173 Workerman[/var/www/html/dreamSchool/start.php] is stopping ...
+2019-02-27 13:23:06 pid:2131 Workerman[start.php] stopping ...
+2019-02-27 13:23:06 pid:2131 Workerman[start.php] has been stopped
+2019-02-27 13:23:06 pid:2173 Workerman[/var/www/html/dreamSchool/start.php] stop success
+2019-02-27 13:23:14 pid:2175 Workerman[/var/www/html/dreamSchool/start.php] start in DAEMON mode
+2019-02-27 13:57:24 pid:2457 Workerman[/var/www/html/dreamSchool/start.php] stop 
+2019-02-27 13:57:24 pid:2457 Workerman[/var/www/html/dreamSchool/start.php] is stopping ...
+2019-02-27 13:57:24 pid:2177 Workerman[start.php] stopping ...
+2019-02-27 13:57:24 pid:2177 Workerman[start.php] has been stopped
+2019-02-27 13:57:24 pid:2457 Workerman[/var/www/html/dreamSchool/start.php] stop success
+2019-02-27 13:57:30 pid:2459 Workerman[/var/www/html/dreamSchool/start.php] start in DAEMON mode
+2019-02-27 13:58:26 pid:2474 Workerman[/var/www/html/dreamSchool/start.php] stop 
+2019-02-27 13:58:26 pid:2474 Workerman[/var/www/html/dreamSchool/start.php] is stopping ...
+2019-02-27 13:58:26 pid:2461 Workerman[start.php] stopping ...
+2019-02-27 13:58:26 pid:2461 Workerman[start.php] has been stopped
+2019-02-27 13:58:26 pid:2474 Workerman[/var/www/html/dreamSchool/start.php] stop success
+2019-02-27 13:58:28 pid:2475 Workerman[/var/www/html/dreamSchool/start.php] start in DAEMON mode
+2019-02-27 14:11:22 pid:2595 Workerman[/var/www/html/dreamSchool/start.php] stop 
+2019-02-27 14:11:22 pid:2595 Workerman[/var/www/html/dreamSchool/start.php] is stopping ...
+2019-02-27 14:11:22 pid:2477 Workerman[start.php] stopping ...
+2019-02-27 14:11:22 pid:2477 Workerman[start.php] has been stopped
+2019-02-27 14:11:22 pid:2595 Workerman[/var/www/html/dreamSchool/start.php] stop success
+2019-02-27 14:11:25 pid:2596 Workerman[/var/www/html/dreamSchool/start.php] start in DAEMON mode
+2019-04-30 12:50:42 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:43 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:44 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:45 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:46 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:47 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:48 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:49 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:50 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:51 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:52 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:53 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:54 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:55 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:56 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:57 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:50:58 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:00 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:01 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:02 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:03 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:04 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:05 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:10 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:51:11 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:51:12 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:51:13 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:51:14 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:51:15 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:51:17 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:18 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:19 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:20 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:21 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:22 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:51:23 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:22 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:23 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:24 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:32 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:54:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:54:34 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:54:48 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:49 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:50 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:51 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:52 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:53 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:54 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:54:55 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:55:26 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:55:27 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:55:28 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:55:36 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:55:37 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:55:38 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:55:40 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:56:12 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:56:13 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:56:22 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:56:23 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 12:56:46 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 12:56:50 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "require_once(): Failed opening required '/var/www/html/dreamSchool_after/websocket/mysql-master/src/Connection.php' (include_path='.;C:\php\pear') in C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php on line 23"
+2019-04-30 13:04:23 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:04:24 pid:1 Worker process terminated
+2019-04-30 13:04:25 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:04:26 pid:1 Worker process terminated
+2019-04-30 13:04:33 pid:1 Register auth timeout (127.0.0.1). See http://wiki.workerman.net/Error4 for detail
+2019-04-30 13:04:34 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:04:35 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:04:36 pid:1 Worker process terminated
+2019-04-30 13:04:37 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:04:38 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:04:39 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:04:40 pid:1 Worker process terminated
+2019-04-30 13:04:41 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:08:12 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:08:13 pid:1 Worker process terminated
+2019-04-30 13:08:19 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}
+2019-04-30 13:08:20 pid:1 Worker process terminated
+2019-04-30 13:08:21 pid:1 Error: Undefined class constant 'MYSQL_ATTR_INIT_COMMAND' in C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php:1710
+Stack trace:
+#0 C:\xampp\htdocs\JPCNBBS\trunk\websocket\mysql-master\src\Connection.php(1698): Workerman\MySQL\Connection->connect()
+#1 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\Events.php(42): Workerman\MySQL\Connection->__construct('139.196.86.33', '3306', 'wujingchi', 'hello12345', 'jpcn_bbs')
+#2 [internal function]: Events::onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#3 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(223): call_user_func('Events::onWorke...', Object(GatewayWorker\BusinessWorker))
+#4 [internal function]: GatewayWorker\BusinessWorker->onWorkerStart(Object(GatewayWorker\BusinessWorker))
+#5 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(2306): call_user_func(Array, Object(GatewayWorker\BusinessWorker))
+#6 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#7 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1315): GatewayWorker\BusinessWorker->run()
+#8 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#9 C:\xampp\htdocs\JPCNBBS\trunk\websocket\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#10 C:\xampp\htdocs\JPCNBBS\trunk\websocket\Applications\YourApp\start_businessworker.php(35): Workerman\Worker::runAll()
+#11 {main}

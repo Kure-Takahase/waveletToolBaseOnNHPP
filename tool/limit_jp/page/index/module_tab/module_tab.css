@@ -1,0 +1,59 @@
+.div_tab
+{
+	position: relative;
+	margin: 0px;
+	top: 60px;
+}
+.ul_tab
+{
+	border-top-style:solid !important;
+	border-top-color:#c2c2c2;
+	border-top-width:1px;
+	border-color: #c2c2c2;
+	background-color:#f2f2f2;
+	height: 45px;
+	border-bottom-width:0px;
+	z-index:1;
+	box-shadow: 0 2px 4px rgba(0,0,0,.1)
+}
+.ul_tab > li
+{
+	height:45px !important;
+	line-height: 45px !important;
+}
+.ul_tab .layui-this:after
+{
+	height: 46px !important;
+	border-bottom-color: #21C5C7 !important;
+	border-bottom-width:4px !important;
+}
+.layui-tab-title li
+{
+	font-size: 14px;
+}
+.ul_tab .layui-this
+{
+	font-size: 14px !important;
+}
+.ul_tab .layui-this
+{
+	color: #393D49 !important;
+	font-weight:700 !important;
+	font-size: 17px !important;
+}
+.ul_tab .color-yellow
+{
+	color:#21C5C7 !important;
+	font-weight: 700;
+	font-size: 14px;
+}
+.div_content
+{
+	padding: 0px;
+}
+#liuqiong_my
+{
+    height: 100%;
+    overflow: auto;
+    background-color: #f2f2f2;
+}

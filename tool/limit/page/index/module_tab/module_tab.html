@@ -1,0 +1,55 @@
+<!-- 登录页 -->
+<div class="login_shade_div">
+  <!-- 登录内容 -->
+  <div class="layadmin-user-login layadmin-user-display-show" id="LAY-user-login" style="display: none;">
+    <div class="layadmin-user-login-main">
+      <div class="layadmin-user-login-box layadmin-user-login-header">
+        <h2>Waveletデノイズツール</h2>
+        <p>作者：Wu JingChi</p>
+      </div>
+      <div class="layadmin-user-login-box layadmin-user-login-body layui-form" lay-filter="formTest">
+
+      <div class="layui-form-item">
+        <label class="layui-form-label">データセット</label>
+        <button type="button" class="layui-btn" id="test1">
+          <i class="layui-icon">&#xe67c;</i>アップロード
+        </button>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">データ変換</label>
+        <div class="layui-input-block">
+          <input type="radio" name="dataTransform" value="Anscombe" title="Anscombe" checked/>
+          <input type="radio" name="dataTransform" value="Fisz" title="Fisz"/>
+          <input type="radio" name="dataTransform" value="Bartlett" title="Bartlett"/>
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">閾値ルール</label>
+        <div class="layui-input-block">
+          <input type="radio" name="thresholdRule" value="s" title="Soft" checked/>
+          <input type="radio" name="thresholdRule" value="h" title="Hard"/>
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">閾値方法</label>
+        <div class="layui-input-block">
+          <input type="radio" name="thresholdMethod" value="ut" title="Universal" checked/>
+          <input type="radio" name="thresholdMethod" value="lht" title="Leave-out-half Cross-Validation"/>
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">全組み合わせ</label>
+        <div class="layui-input-block">
+          <input type="checkbox" name="mode" lay-skin="switch">
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <div class="layui-input-block" id="res">
+          <button id="testListAction" class="layui-btn" lay-submit lay-filter="formDemo" >計算する</button>
+          <button type="reset" class="layui-btn layui-btn-primary">リセット</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

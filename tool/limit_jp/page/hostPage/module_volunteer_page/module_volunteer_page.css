@@ -1,0 +1,48 @@
+.host_page_div
+{
+    position: absolute;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    width: 70%;
+    padding-top: 60px;
+    overflow: auto;
+    padding-left: 30%;
+}
+.host_page_form
+{
+    padding-right: 2%;
+    padding-left: 2%;
+	margin-bottom: 95px;
+}
+.layui-form-pane .layui-input-block 
+{
+    margin-left: 80px;
+    left: -1px;
+}
+.layui-form-pane .layui-form-label 
+{
+    width: 80px;
+    padding: 8px 0px;
+}
+.margin_left_80
+{
+	margin-left: 80px !important;
+}
+.margin_left_82
+{
+	margin-left: 82px !important;
+}
+.padding_left_15
+{
+	padding-left:15px !important;
+}
+.host_page_buttom_div
+{
+	text-align: center;
+}
+.host_page_p_title
+{
+    margin-bottom: 15px;
+    text-align: center;
+}
