@@ -1,0 +1,56 @@
+<div id="mail_content_main" class="mail_content_shade_div">
+	<div class="layui-row" id="mail_content_content">
+	    <div class="layui-col-md12 mail_content_col">
+			<h6 class="title" id="mail_content_title">読み込み中...</h6>
+			<div class="user_message_area_div">
+				<div class="layui-row">
+					<div class="layui-col-xs12 user_message_area_content">
+						
+						<div class="goto_line mail_content_head_div">
+							<img src="" alt="" class="mail_content_head_img" id="mail_content_user_head">
+						</div>
+						
+						<div class="mail_content_message_div">
+							
+							<span class="mail_content_user_name_h4 " valign="top" id="mail_content_user_name"></span>
+							
+							<span class="mail_content_time" align="bottom" id="mail_content_user_time"></span>
+						</div>
+						<!-- 更多按钮 此时不需要展示
+						<i class="layui-icon layui-icon-more mail_content_menu"></i>
+						-->
+					</div>
+				</div>
+			</div>
+			<p class="mail_content_p" id="mail_content_content_p">読み込み中...</p>
+			<hr class="display_none" id="mail_content_hr">
+	    </div>
+	</div>
+	<div class="comment_main">
+    	<div class="top_title">
+			<p id="comment_titel_p" class="goto_line">返信</p>
+			<p id="comment_sum_p" class="goto_line"></p>
+		</div>
+		<div class="layui-row" id="comment_div_row">
+			<!-- 第一条评论 -->
+			<img id="comment_loading_img" src="$staticImgURL/other_loading.gif" alt="">
+			<img id="comment_noComment_img" src="$staticImgURL/regular/nothing.png" alt="">
+		    <!-- 第二条评论 -->
+		</div>
+    </div>
+	<!-- 回复栏 -->
+	<form class="layui-form mail_content_form layui-form-pane" action="">
+		<div class="layui-form-item layui-form-text">
+            <label class="layui-form-label padding_left_15">返信</label>
+            <div class="layui-input-block">
+                <textarea name="desc" placeholder="ここで返信を書いてください" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="mail_content_buttom_div">
+                <button class="layui-btn" lay-submit lay-filter="mail_content">返信する</button>
+            </div>
+        </div>
+    </form>
+
+</div>

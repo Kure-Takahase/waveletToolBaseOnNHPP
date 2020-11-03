@@ -1,0 +1,4 @@
+DS6中，单位为月，取自github中piskelapp项目的piskel
+2012年9月份起到2018年7月份为止的提交的所有bug(包含未修复的)
+出处如下:
+https://github.com/piskelapp/piskel/issues?page=3&q=is%3Aissue+label%3Abug+is%3Aclosed

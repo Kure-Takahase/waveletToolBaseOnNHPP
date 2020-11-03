@@ -1,0 +1,38 @@
+<!-- 首页标题栏 -->
+<div class="layui-header liuqiong_shop_header">
+
+	<ul class="layui-nav layui-layout my_header">
+		<span class="box1">
+	    	<img class="liuqiong_shop_img_logo" src="$staticImgURL/LOGO.png" alt="">
+	    </span>
+	</ul>
+	<ul class="layui-nav layui-layout-right nav-left" lay-filter="layadmin-layout-left">
+		<!-- 已登录 -->
+	    <li class="layui-nav-item user_login_div">
+			<div class="user_name_div">
+	 			<p class="user_name_p"></p>
+			</div>
+			<dl class="layui-nav-child liuqiong_header_zindex"> <!-- 二级菜单 -->
+				<dd class="dd_nav" id="header_MyPage"><a href="javascript:void(0);">基本資料</a></dd>
+				<dd class="dd_nav" id="header_HostPage"><a href="javascript:void(0);">ボランセンー</a></dd>
+				<!--
+				<dd class="dd_nav" id="uploadHead"><a href="javascript:void(0);">上传头像</a></dd> 
+				<dd class="dd_nav"><a href="" id="vip_charge">开通会员</a></dd>
+				-->
+				<hr>
+				<dd><p class="loginOut">ログアウト</p></dd>
+			</dl>
+	    </li>
+	    <!-- 未登录 -->
+		<div class="goto_line login_button_div">
+ 			<button class="layui-btn layui-btn-primary layui-btn-sm liuqiong_shop_login_button">ログイン</button>
+		</div>
+		<div class="goto_line register_button_div">
+ 			<button class="layui-btn  layui-btn-sm liuqiong_shop_register_button">登録</button>
+		</div>
+
+		<span class="box1" id="span_write" lay-unselect>
+	    	<img id="img_write" src="$staticImgURL/编辑 (6).png" id="add_img" alt="">
+	    </span>
+	</ul>
+</div>

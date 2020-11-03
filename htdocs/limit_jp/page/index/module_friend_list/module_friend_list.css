@@ -1,0 +1,202 @@
+.message_back_div
+{
+	height: 100%;
+	background-color: #F6F8FA;
+}
+.message_boder
+{
+	border-top-width: 0px;
+}
+.message_h2 .layui-colla-icon
+{
+	left: 90px;
+}
+.pro_div
+{
+	background-color: #F6F8FA;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.unread_newadd_span + .layui-colla-icon
+{
+	left: 120px;
+}
+.message_div
+{
+	background-color: #F6F8FA;
+	padding: 0px 0px;
+}
+.message_list
+{
+	height: 63px;
+	background-color:white;
+	margin-top: 3px;
+	padding-left: 20px;
+	position: relative;
+}
+.display_none
+{
+	display:none;
+}
+.message_head_img
+{
+	border-radius:60px;
+	width: 50px;
+	position: absolute;
+    top: 50%;
+    margin-top: -25px; /* 高度的一半 */
+}
+.main_message_div
+{
+	margin-left: 60px;
+	position: absolute;
+    top: 50%;
+    margin-top: -22px;
+}
+.goto_line
+{
+	display: inline-block;
+}
+.add_message_front
+{
+	width: 150px;
+}
+.friend_button
+{
+	float: right;
+	margin-left: 0px;
+	margin-right: 6px;
+	margin-top: 18px;
+}
+#friend_ul
+{
+	background-color: white;
+	height: 42px;
+	line-height:42px;
+	padding-left: 20px;
+
+	/*
+	border-color: #e6e6e6;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-top: 0px;
+	*/
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+
+}
+#friend_h2
+{
+	height: 100%;
+	color: #333;
+	font-weight: 700;
+
+}
+.message_button
+{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	/*
+	color:#C37DC4;
+	border-color:#C37DC4;
+	*/
+	color:#21C5C7;
+	border-color:#21C5C7;
+
+}
+.message_button:hover
+{
+	/*
+	color:#945F95;
+	border-color:#945F95;
+	*/
+	color:#5FB878;
+	border-color:#5FB878;
+}
+#button_div1
+{
+	width: 50px;
+	height: 42px;
+	float: right;
+	position:relative; 
+
+}
+#button_div2
+{
+	width: 40px;
+	height: 42px;
+	float: right;
+	position:relative; 
+}
+.user_list
+{
+	height: 63px;
+	background-color:white;
+	line-height: 63px;
+	padding-left: 20px;
+	position: relative;
+	border-width:0px; 
+	border-bottom-width:1px; 
+	border-style:solid; 
+	border-color:#e6e6e6;
+}
+.user_head_img
+{
+	border-radius:60px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+    top: 50%;
+    margin-top: -25px; /* 高度的一半 */
+}
+.user_name_h2
+{
+	margin-left: 60px;
+}
+.unread_message_span
+{
+	position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    margin-left: 5px;
+}
+.user_status_span
+{
+	float: right;
+	margin-right: 20px;
+}
+.user_status_online
+{
+	color: #3FDD86;
+}
+.user_status_offline
+{
+	color: #c2c2c2;
+}
+.nothing_img
+{
+	height: 93px;
+	margin: 0 auto;
+}
+#add_button
+{
+	margin-left: 10px;
+}
+.layui-colla-title
+{
+	background-color: #fff;
+}
+.unread_newadd_span
+{
+	margin-left: 5px;
+}
+.z_index_1
+{
+	z-index: 1;
+}

@@ -1,0 +1,18 @@
+.host_side_nav
+{
+	top: 45px;
+    width: 30%;
+    position: absolute;
+    height: 100%;
+    background-color: #009688;
+    z-index: 1;
+}
+.layui-nav-tree .layui-nav-item a:hover 
+{
+    background-color: #5FB878;
+}
+.nav_is_checked
+{
+	color: #fff !important;
+	background-color: #5FB878;
+}

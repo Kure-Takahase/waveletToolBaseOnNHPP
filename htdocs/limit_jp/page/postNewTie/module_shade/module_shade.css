@@ -1,0 +1,9 @@
+.shade_div
+{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	opacity:0.5;
+	top: 0;
+    background-color: black;
+}

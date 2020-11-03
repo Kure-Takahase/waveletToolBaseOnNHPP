@@ -1,0 +1,151 @@
+#chat_page_send_vip_question_div
+{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    /*
+    box-shadow: 0 -2px 4px rgba(0,0,0,.chat_page_1);
+    */
+    border: 0px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    padding-left: 12px;
+}
+#chat_page_send_vip_question_p
+{
+    color:#999;
+    font-size: 16px;
+}
+#chat_page_vip_question_textarea_div
+{
+    position: fixed;
+    z-index: 1005;
+    top: 0;
+    width: 100%;
+    height: 222px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+}
+#chat_page_vip_question_textarea
+{
+    display: block;
+    width: 100%;
+    height: 120px;
+    border: 0;
+    font-size: 17px;
+}
+#chat_page_vip_question_submit
+{
+    margin-left: 15px;
+    width: 80px;
+    height: 35px;
+    font-size: 17px;
+    line-height: 35px;
+    background-color: #42c02e;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    user-select: none;
+    text-align: center;
+    float: right;
+}
+#chat_page_vip_question_cancel
+{
+    user-select: none;
+    text-align: center;
+    border: none;
+    margin-left: 16px;
+    width: 80px;
+    height: 35px;
+    font-size: 17px;
+    line-height: 35px;
+    color: #999;
+    background-color: transparent;
+    float: right;
+}
+#chat_page_vip_question_shade_div
+{
+    z-index: 1004;
+    position: fixed;
+    height: 100%;
+    width:100%;
+    opacity:0.5;
+    top: 0;
+    background-color: black;
+}
+.chat_page_chat_user
+{
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    padding-left: 20px;
+    position: relative;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+}
+.chat_page_chat_message
+{
+    margin-top: 10px;
+}
+.chat_page_chat_message_div
+{
+    margin-left: 10px;
+}
+.chat_page_chat_name_h4
+{
+    width: 90%;
+    display: inline;
+}
+.chat_page_time_h4
+{
+    display: inline;
+    margin-left: 5px;
+}
+.chat_page_chat_message_h4
+{
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.chat_page_public_chat_div
+{
+    overflow: auto;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding-top: 45px;
+    height: 100%;
+    width: 100%;
+}
+.chat_page_he_chatmessage
+{
+    color: #1E9FFF;
+}
+.chat_page_my_chatmessage
+{
+    color: #5FB878;
+}
+.display_none
+{
+    display: none;
+}
+.control
+{
+    height: 35px;
+    /* margin-top: 37px; */
+    position: absolute;
+    bottom: 15;
+    right: 15;
+}
+#chat_page_public_chat
+{
+    margin-bottom: 110px;
+}

@@ -1,0 +1,5 @@
+DS5中，单位为月，取自github中OpenEmu项目的
+2012年2月份起到2020年9月份为止的提交的所有bug(包含未修复的)
+出处如下:
+https://github.com/OpenEmu/OpenEmu/issues?page=15&q=is%3Aissue+is%3Aclosed+label%3Abug
+https://github.com/OpenEmu/OpenEmu

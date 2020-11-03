@@ -1,0 +1,81 @@
+.userPage_div
+{
+	position: absolute;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    overflow: auto;
+}
+.userPage_form
+{
+	padding-right: 15%;
+	padding-left: 15%;
+	margin-bottom: 35px;
+}
+.layui-form-pane .layui-input-block 
+{
+    margin-left: 80px;
+    left: -1px;
+}
+.layui-form-pane .layui-form-label 
+{
+    width: 80px;
+    padding: 8px 0px;
+}
+.margin_left_80
+{
+	margin-left: 80px !important;
+}
+.margin_left_82
+{
+	margin-left: 82px !important;
+}
+.margin_bottom_15
+{
+	margin-bottom:15px;
+}
+.padding_left_15
+{
+	padding-left:15px !important;
+}
+.userPage_buttom_div
+{
+	text-align: center;
+}
+.changePassword
+{
+	display:none;
+}
+.changePassword_div
+{
+	margin-bottom: 15px;
+}
+#changePassword_button,#notChangePassword_button
+{
+    padding: 0 11px;
+}
+.userPage_email_div
+{
+	text-align:center;
+	line-height: 38px;
+	padding-left:10px;
+}
+.userPage_userHead_img
+{
+	width: 64px;
+	height: 64px;
+	margin-left: 8px;
+	border-radius: 60px;
+}
+.userPage_userHead_div
+{
+	padding-right: 15%;
+	padding-left: 15%;
+	margin-bottom: 10px;
+}
+.userPage_userHead_button
+{
+	margin-left:8px;
+}

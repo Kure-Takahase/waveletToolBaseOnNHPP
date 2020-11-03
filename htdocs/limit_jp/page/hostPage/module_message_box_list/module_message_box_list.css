@@ -1,0 +1,70 @@
+.message_box_list_div
+{
+	position: absolute;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-top: 45px;
+    overflow: auto;
+    padding-left: 30%;
+    padding-right: 0px;
+}
+.message_box_list_head_img 
+{
+    border-radius: 60px;
+    width: 32px;
+    height: 32px;
+}
+.message_box_list_img_div
+{
+	text-align: center;
+	padding: 16px 0;
+}
+.message_box_list_name
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #333333;
+	font-size: 17px;
+    font-weight: 600;
+    display: inline;
+}
+.message_box_list_time
+{	
+	padding: 0px 3px;
+	float: right;
+	font-size: 13px;
+	font-weight: 400;
+	display: inline;
+	font-family: "Segoe UI WestEuropean", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.message_box_list_title
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #212121;
+	font-size: 15px;
+    font-weight: 400;
+}
+.message_box_list_content
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #666666;
+	font-size: 15px;
+    font-weight: 400;
+}
+.message_box_list_row_div
+{
+	padding: 7px 2px;
+	border-style:solid;
+	border-top-width:0px;
+    border-bottom-width:1px;
+    border-right-width:0px;
+    border-left-width:0px;
+    border-color:#eeeeee;
+}

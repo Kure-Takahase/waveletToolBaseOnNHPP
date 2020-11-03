@@ -1,0 +1,107 @@
+<div class="host_page_div">
+    <h2 class="host_page_p_title">Host信息</h2>
+    <form class="layui-form host_page_form layui-form-pane" action="">
+        <div class="layui-form-item">
+            <label class="layui-form-label">姓名</label>
+            <div class="layui-input-block">
+                <input type="text" name="name" required  lay-verify="required" placeholder="请输入姓名" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">年龄</label>
+            <div class="layui-input-block">
+                <input type="text" name="age" required  lay-verify="required" placeholder="请输入年龄" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">性别</label>
+            <div class="layui-input-block">
+                <input type="radio" name="sex" value="1" title="男" checked>
+                <input type="radio" name="sex" value="0" title="女">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">国籍</label>
+            <div class="layui-input-block">
+                <input type="radio" name="country" value="1" title="中国" checked>
+                <input type="radio" name="country" value="0" title="日本">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">省份</label>
+            <div class="layui-input-block">
+                <input type="text" name="province" required  lay-verify="required" placeholder="所在省份" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">城市</label>
+            <div class="layui-input-block">
+                <input type="text" name="city" required  lay-verify="required" placeholder="所在城市" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">饮酒习惯</label>
+            <div class="layui-input-block">
+                <select name="drink_prefer" lay-verify="required">
+                    <option value=""></option>
+                    <option value="0">完全不喝</option>
+                    <option value="1">只能喝一点</option>
+                    <option value="2">正常</option>
+                    <option value="3">特别能喝</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">饮食偏好</label>
+            <div class="layui-input-block">
+                <select name="eat_prefer" lay-verify="required">
+                    <option value=""></option>
+                    <option value="0">素食主义者</option>
+                    <option value="1">荤素都可以</option>
+                    <option value="2">无肉不欢</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">是否吸烟</label>
+            <div class="layui-input-block">
+                <input type="checkbox" name="is_smoke" lay-skin="switch">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">是否养猫</label>
+            <div class="layui-input-block">
+                <input type="checkbox" name="is_cat" lay-skin="switch">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">是否养狗</label>
+            <div class="layui-input-block">
+                <input type="checkbox" name="is_dog" lay-skin="switch">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">工作类型</label>
+            <div class="layui-input-block">
+                <input type="checkbox" name="is_handmade_article_room" title="手工艺品工坊">
+                <input type="checkbox" name="is_animal_husbandry" title="牛乳畜牧业">
+                <input type="checkbox" name="is_farming_tree" title="农业(果树)">
+                <input type="checkbox" name="is_farming_vegetable" title="农业(蔬菜)">
+                <input type="checkbox" name="is_farming_rice" title="农业(米)">
+                <input type="checkbox" name="is_restaurant" title="餐厅">
+                <input type="checkbox" name="is_home_stay" title="民宿">
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label padding_left_15">自我介绍</label>
+            <div class="layui-input-block">
+                <textarea name="introduction" placeholder="请输入内容" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="host_page_buttom_div">
+                <button class="layui-btn" lay-submit lay-filter="host_page">立即提交</button>
+            </div>
+        </div>
+    </form>
+</div>

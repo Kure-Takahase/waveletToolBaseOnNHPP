@@ -1,0 +1,104 @@
+.my_header
+{
+	height: 60px;
+	width: 100%;
+	padding-left: 16px;
+	padding-right: 10px;
+	background-color: #fff;
+	position: fixed;
+	/*box-shadow: 0 2px 4px rgba(0,0,0,.1);*/
+}
+.loginOut
+{
+	color: #333;
+    text-align: center;
+}
+.liuqiong_shop_img_logo
+{
+	height: 50px;
+	display: inline-block;
+	margin-top: 5px;
+}
+.nav-left .layui-nav-item
+{
+	margin-top: 0px;
+}
+.user_name_div
+{
+	height: 60px;
+    text-align: right;
+    line-height: 60px;
+}
+.user_name_p
+{
+	height: 25px;
+	display: inline-block;
+	font-family:"microsoft yahei";
+	padding-left: 20px;
+	margin-right: 20px;
+	color:black;
+	min-width:58px;
+}
+.goto_line
+{
+	display: inline-block;
+}
+.nav-left .user_login_div
+{
+    display: none;
+}
+.login_button_div 
+{
+    margin-right: 10px;
+}
+.nav-left
+{
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    background-color: white;
+}
+.register_button_div
+{
+	margin-right: 0px;
+}
+.liuqiong_header_zindex
+{
+	z-index: 3;
+}
+.liuqiong_shop_header
+{
+	top:0;
+	position:absolute;
+	width:100%;
+}
+#add_img
+{
+	height: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.box1
+{
+	text-align: center;
+}
+#span_write
+{
+	display: inline-block;
+	margin-left: 5px;
+}
+#img_write
+{
+	height: 36px;
+	margin-right: 12px;
+	margin-left: 6px;
+	/*margin-top: 10px;*/
+}
+.liuqiong_shop_header .nav-left .user_login_div
+{
+	/*display: inline-block;*/
+}
+.layui-nav .layui-nav-child a
+{
+	text-align: center;
+}

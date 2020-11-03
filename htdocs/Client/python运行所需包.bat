@@ -1,0 +1,1 @@
+pip install sympy xlsxwriter scipy pytz

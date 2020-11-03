@@ -1,0 +1,12 @@
+.volunteer_row_div
+{
+	padding: 10 15px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+}
+.volunteer_list_div
+{
+	padding: 0;
+}
