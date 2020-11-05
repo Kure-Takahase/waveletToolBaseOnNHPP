@@ -30,8 +30,8 @@ class Welcome extends CI_Controller {
 		
 	    $this->load->helper('path');
 	    $this->load->helper('url');
-	    $this->load->model('IP_model');//IP相关模块
-	    $this->load->model('Monitor_model');//行为监控模块
+	    #$this->load->model('IP_model');//IP相关模块
+	    #$this->load->model('Monitor_model');//行为监控模块
 	    //GatewayWorker框架的注册地址
 	    Gateway::$registerAddress = $this->config->item('gateway_registerAddress');
 	    //websocket URL
@@ -60,8 +60,9 @@ class Welcome extends CI_Controller {
 	}
 	public function index($pageName = 'waveletShrinkageEstimationTool')
 	{
-		$IParea = $this->IP_model->getIPArea( $this->IP_model->getIP() );//获取用户国籍
-		$country = mb_substr($IParea,0,2,'utf-8');
+		//$IParea = $this->IP_model->getIPArea( $this->IP_model->getIP() );//获取用户国籍
+		//$country = mb_substr($IParea,0,2,'utf-8');
+		$country = "中国";
 		$host_url = $this->autoChangeSiteUrl( $country );//根据国籍自动变换CI 后端URL
 		$CDN_url = $this->autoChangeStaticUrl( $country );//根据国籍自动变换Limit 前端URL
 		#$pageName = 'waveletShrinkageEstimationTool';//网页名称
