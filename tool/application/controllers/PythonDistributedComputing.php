@@ -14,8 +14,8 @@ class PythonDistributedComputing extends CI_Controller {
 		parent::__construct();
 	    $this->load->helper('path');
 	    $this->load->helper('url');
-	    $this->load->model('IP_model');//IP相关模块
-	    $this->load->model('Monitor_model');//行为监控模块
+	    #$this->load->model('IP_model');//IP相关模块
+	    #$this->load->model('Monitor_model');//行为监控模块
 	    Gateway::$registerAddress = $this->config->item('gateway_registerAddress');
 
 	    //ftp服务器基本信息
@@ -79,7 +79,7 @@ class PythonDistributedComputing extends CI_Controller {
 
 	public function getExcelSaveFilesList()
 	{
-		$dir = '/var/www/html/tool/Server/excel_save';
+		$dir = '/var/www/html/waveletToolBaseOnNHPP/tool/Server/excel_save';
 		#更新本地excel_save文件
 		$this->updateExcelSaveFilesList();
 		#获取本地excel_save文件列表
