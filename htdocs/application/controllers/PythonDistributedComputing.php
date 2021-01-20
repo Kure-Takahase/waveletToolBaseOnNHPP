@@ -79,7 +79,7 @@ class PythonDistributedComputing extends CI_Controller {
 
 	public function getExcelSaveFilesList()
 	{
-		$dir = '/var/www/html/tool/Server/excel_save';
+		$dir = '/var/www/html/distributedComputingFramework/Server/excel_save';
 		#更新本地excel_save文件
 		$this->updateExcelSaveFilesList();
 		#获取本地excel_save文件列表
@@ -105,7 +105,7 @@ class PythonDistributedComputing extends CI_Controller {
 			for ($i = 0; $i < $len; $i++) 
 			{
 				$local_file 	= 'excel_save/'.$arr[ $i ];
-				$remote_file 	= '/excel_save/'.$arr[ $i ];
+				$remote_file 	= '/ftp/excel_save/'.$arr[ $i ];
 				$this->ftp_download($local_file,$remote_file);
 			}
 		}

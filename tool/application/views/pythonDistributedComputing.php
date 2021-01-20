@@ -210,7 +210,7 @@
 -->
 <script src="<?php echo base_url('/limit/core/jquery.min.js');?>"></script>
 <!-- 载入jquery cookie -->
-<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="<?php echo base_url('/limit/core/jquery.cookie.min.js');?>"></script>
 <!-- 载入md5插件 -->
 <script src="<?php echo base_url('/limit/core/')."md5.js";?>"></script>
 <!-- 载入LimitControl控制模块 -->

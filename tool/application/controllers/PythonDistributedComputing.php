@@ -105,7 +105,7 @@ class PythonDistributedComputing extends CI_Controller {
 			for ($i = 0; $i < $len; $i++) 
 			{
 				$local_file 	= 'excel_save/'.$arr[ $i ];
-				$remote_file 	= '/excel_save/'.$arr[ $i ];
+				$remote_file 	= '/ftp/excel_save/'.$arr[ $i ];
 				$this->ftp_download($local_file,$remote_file);
 			}
 		}
